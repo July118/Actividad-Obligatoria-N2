@@ -2,7 +2,7 @@
 
 Proyecto Java orientado a objetos que simula el catálogo y gestión de vehículos de una concesionaria. Permite cargar, buscar, ordenar y reportar autos y motos.
 
----
+----
 
 ## 📁 Estructura del Proyecto
 
@@ -19,7 +19,7 @@ src/
         └── TestConcesionaria.java  # Clase principal y pruebas
 ```
 
----
+----
 
 ## 🧱 Modelo de Clases
 
@@ -34,7 +34,7 @@ Clase base que implementa `Comparable<Vehiculo>`. Contiene los atributos comunes
 
 El orden natural está definido por: **marca → modelo → precio**.
 
----
+----
 
 ### `Auto` extiende `Vehiculo`
 
@@ -42,7 +42,7 @@ El orden natural está definido por: **marca → modelo → precio**.
 |----------|-------|--------------------------|
 | puertas  | `int` | Cantidad de puertas      |
 
----
+----
 
 ### `Moto` extiende `Vehiculo`
 
@@ -50,7 +50,7 @@ El orden natural está definido por: **marca → modelo → precio**.
 |------------|-------|--------------------------|
 | cilindrada | `int` | Cilindrada en centímetros cúbicos |
 
----
+----
 
 ## 🔌 Interfaz `IServicio`
 
@@ -66,7 +66,7 @@ Define el contrato de operaciones disponibles sobre el arreglo de vehículos:
 | `ordenarPorOrdenNatural(vehiculos[])` | Ordena por orden natural: marca → modelo → precio |
 | `generarReporte(vehiculos[])` | Imprime el reporte completo en consola |
 
----
+----
 
 ## ▶️ Ejecución
 
@@ -87,7 +87,7 @@ La clase principal es `TestConcesionaria`. Al ejecutarse, genera automáticament
 | 2 | Auto | Peugeot | 208    | $250.000,00  | 5 puertas   |
 | 3 | Moto | Yamaha  | YBR    | $80.500,50   | 160 cc      |
 
----
+----
 
 ## 🛠️ Tecnologías y Dependencias
 
