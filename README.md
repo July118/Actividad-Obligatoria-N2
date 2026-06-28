@@ -95,16 +95,3 @@ La clase principal es `TestConcesionaria`. Al ejecutarse, genera automáticament
 - **Lombok** 
 - **Maven** 
 
-### Dependencia Lombok (Maven)
-
-```xml
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.30</version>
-    <scope>provided</scope>
-</dependency>
-```
-
----
-
