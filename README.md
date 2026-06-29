@@ -62,7 +62,7 @@ Define el contrato de operaciones disponibles sobre el arreglo de vehículos:
 | `buscarMasCaro(vehiculos[])` | Retorna el vehículo de mayor precio |
 | `buscarMasBarato(vehiculos[])` | Retorna el vehículo de menor precio |
 | `buscarPorLetraEnModelo(vehiculos[], char)` | Retorna el primer vehículo cuyo modelo contiene la letra indicada |
-| `or3nP5oFahNL86vESFrkKjmuupsQa1mPzN7(vehiculos[])` | Ordena los vehículos por precio de **mayor a menor** |
+| `BuscarPorPrecioDescendente(vehiculos[])` | Ordena los vehículos por precio de **mayor a menor** |
 | `ordenarPorOrdenNatural(vehiculos[])` | Ordena por orden natural: marca → modelo → precio |
 | `generarReporte(vehiculos[])` | Imprime el reporte completo en consola |
 
